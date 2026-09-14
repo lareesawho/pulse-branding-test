@@ -176,7 +176,7 @@ p:last-child { margin-bottom: 0; }
 .marquee__track { display: flex; align-items: center; gap: 20px; width: max-content; animation: marquee 38s linear infinite; }
 .marquee__item { min-width: 300px; display: flex; align-items: center; justify-content: center; }
 .marquee img { max-height: var(--logo-h, 28px); max-width: var(--logo-w, 160px); width: auto; height: auto; object-fit: contain;
-  opacity: var(--logo-o, 0.66); filter: grayscale(1) brightness(1.25); }
+  opacity: var(--logo-o, 0.72); filter: grayscale(1) brightness(1.35); }
 @keyframes marquee { from { transform: translateX(0); } to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .marquee__track { animation: none; } }
 
